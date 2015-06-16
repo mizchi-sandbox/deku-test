@@ -1,17 +1,19 @@
 {
-  "name": "prj",
+  "name": "deku-test",
   "version": "0.0.0",
-  "bin": "cli",
-  "description": "mizchi's minimum project",
+  "description": "deku test",
   "scripts": {
-    "watch": "$(npm bin)/watchify -v -t babelify --extension='.es6' -o bundle.js index.es6",
+    "watch": "$(npm bin)/watchify -v -t babelify --extension='.js' -o bundle.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mizchi",
   "license": "MIT",
   "devDependencies": {
+    "babelify": "^6.1.2",
     "browserify": "^9.0.8",
-    "watchify": "^3.1.1",
-    "babelify": "^5.0.4"
+    "watchify": "^3.1.1"
+  },
+  "dependencies": {
+    "deku": "^0.4.5"
   }
 }
