@@ -1,4 +1,4 @@
-# mizchi's minimum frontend project
+# deku test
 
 ```
 $ npm install -g browserify watchify
@@ -9,7 +9,6 @@ $ npm install
 
 ```
 $ npm run watch # start watchify
-$ npm run open  # open localhost:9966 by GoogleChromeCanary
 ```
 
 and open index.html
